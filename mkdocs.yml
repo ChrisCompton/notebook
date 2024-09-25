@@ -1,0 +1,10 @@
+site_name: Notebook
+repo_url: https://github.com/ChrisCompton/notebook
+theme:
+  name: material
+extra_css:
+  - static/css/adjust.css
+extra_javascript:
+  - static/js/main.js
+#extra_templates:
+#  - themes/material

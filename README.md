@@ -8,6 +8,13 @@ This is my approach to building a local notebook (or one for github-pages), that
 python -m pip install -r requirements.txt
 ```
 
+## For marp support
+
+```shell
+pip install -e .
+npm install -g @marp-team/marp-cli
+```
+
 ## mkdocs
 
 To execute the mkdocs notebook for development of content:

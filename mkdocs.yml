@@ -2,9 +2,12 @@ site_name: Notebook
 repo_url: https://github.com/ChrisCompton/notebook
 theme:
   name: material
+plugins:
+  - search
+  - marp:
+      output_types: ['html', 'pdf']
+      output_suffix: '_slides'
 extra_css:
   - static/css/adjust.css
 extra_javascript:
   - static/js/main.js
-#extra_templates:
-#  - themes/material

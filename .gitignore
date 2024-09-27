@@ -4,5 +4,6 @@
 .idea/
 .venv/
 __pycache__/
-mkdocs_marp_plugin.egg-info/
+*.egg-info/
 site/
+.vscode/

@@ -1,13 +1,10 @@
 from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
 
+app.mount("/", StaticFiles(directory="./site", html=True), name="notebook")
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
-
-
-@app.get("/hello/{name}")
-async def say_hello(name: str):
-    return {"message": f"Hello {name}"}
+# mkdocs build
+# pip install "fastapi[standard]"
+# fastapi dev main.py

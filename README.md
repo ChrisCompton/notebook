@@ -2,6 +2,8 @@
 
 This is my approach to building a local notebook (or one for github-pages), that can be used in day-to-day work.
 
+> IMPORTANT! I'm actively working on the scripts to support this (marp, encode), and they may not behave as expected!! I would recommend avoiding marp for now.
+
 ## Setup
 
 ```shell

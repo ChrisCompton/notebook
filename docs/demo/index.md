@@ -7,42 +7,17 @@ theme: notebook
 
 # Demo Presentation
 
-- Content Here
 
 ---
 
-# Slide 2
+# Slide 2 Title
 
 - Content Here
+- More content
 
 ---
 
 # Thank you!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

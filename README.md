@@ -5,6 +5,7 @@ This is my approach to building a local notebook (or one for github-pages), that
 ## Setup
 
 ```shell
+source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 

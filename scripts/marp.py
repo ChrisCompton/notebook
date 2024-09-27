@@ -19,7 +19,6 @@ def process_markdown_files(base_path):
                             front_matter = yaml.safe_load(content[3:end])
                             if 'marp' in front_matter:
                                 if front_matter.get('marp') == True:
-                                    remove_generated_files(md_file)
                                     remove_links(md_file)
                                     generate_slides(md_file)
                                     append_links(md_file)

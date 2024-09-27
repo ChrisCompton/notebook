@@ -2,9 +2,52 @@ site_name: Notebook
 repo_url: https://github.com/ChrisCompton/notebook
 theme:
   name: material
+
 plugins:
   - search
+  - awesome-pages
+
+highlightjs: true
+hljs_languages:
+  - yaml
+  - python
+  - sql
+
+features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - toc.follow
+
+
 extra_css:
   - /static/css/adjust.css
 extra_javascript:
   - /static/js/main.js
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - footnotes
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
+
+
+exclude_docs: |
+  __*.md
+draft_docs: |
+  DRAFT_*.md

@@ -1,3 +1,7 @@
+> [!CAUTION]
+> I'm actively working on the scripts to support this (marp, encode), and they may not behave as expected!! 
+> **I recommend avoiding marp setup for now.**
+
 # Notebook
 
 This is my approach to building a local notebook (or one for github-pages), that can be used in day-to-day work.

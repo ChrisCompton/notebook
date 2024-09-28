@@ -1,7 +1,10 @@
 site_name: Notebook
+# docs_dir: ../your_docs_dir
 repo_url: https://github.com/ChrisCompton/notebook
 theme:
   name: material
+  palette:
+    primary: green
 
 plugins:
   - search
@@ -55,3 +58,6 @@ exclude_docs: |
   __*.md
 draft_docs: |
   DRAFT_*.md
+
+extra:
+  generator: false

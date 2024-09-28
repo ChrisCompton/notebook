@@ -21,4 +21,4 @@ def encode_images_to_base64(directory):
 encode_images_to_base64(cfg.marp_theme_image_path)
 
 # delete the existing images from the marp/notebook.css file
-# python scripts/encode.py >> marp/notebook.css
+# python scripts/encode.py >> marp/notebook/notebook.css

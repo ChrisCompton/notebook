@@ -1,6 +1,8 @@
 site_name: Notebook
 # docs_dir: ../your_docs_dir
 repo_url: https://github.com/ChrisCompton/notebook
+repo_name: ChrisCompton/notebook
+edit_uri: blob/main/docs/
 theme:
   name: material
   palette:

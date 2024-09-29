@@ -5,6 +5,18 @@ theme:
   name: material
   palette:
     primary: green
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - toc.follow
+
 
 plugins:
   - search
@@ -15,16 +27,6 @@ hljs_languages:
   - yaml
   - python
   - sql
-
-features:
-    - content.code.annotate
-    - content.code.copy
-    - content.tabs.link
-    - content.tooltips
-    - navigation.tabs
-    - navigation.top
-    - search.highlight
-    - toc.follow
 
 
 extra_css:

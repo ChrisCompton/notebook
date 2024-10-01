@@ -5,6 +5,7 @@ repo_name: ChrisCompton/notebook
 edit_uri: blob/main/docs/
 theme:
   name: material
+  custom_dir: custom_templates
   palette:
     primary: green
   features:
@@ -18,24 +19,20 @@ theme:
     - navigation.top
     - search.highlight
     - toc.follow
-
+  highlightjs: true
+  hljs_languages:
+    - yaml
+    - python
+    - sql
 
 plugins:
   - search
   - awesome-pages
 
-highlightjs: true
-hljs_languages:
-  - yaml
-  - python
-  - sql
-
-
 extra_css:
   - /static/css/adjust.css
 extra_javascript:
   - /static/js/main.js
-
 
 markdown_extensions:
   - attr_list

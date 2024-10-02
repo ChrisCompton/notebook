@@ -1,0 +1,1 @@
+  <button hx-get="/">Get Some HTML</button>

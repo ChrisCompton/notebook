@@ -35,6 +35,8 @@ extra_css:
 extra_javascript:
   - static/js/main.js
   - static/js/d3.v7.min.js
+  - static/js/htmx.v2.0.2.min.js
+  - static/js/alpine.v3.14.1.min.js
 
 markdown_extensions:
   - attr_list

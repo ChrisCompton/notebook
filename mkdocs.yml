@@ -6,7 +6,7 @@ repo_name: ChrisCompton/notebook
 edit_uri: blob/main/docs/
 theme:
   name: material
-  custom_dir: custom_templates
+  # custom_dir: custom_templates
   palette:
     primary: green
   features:
@@ -34,6 +34,7 @@ extra_css:
   - static/css/adjust.css
 extra_javascript:
   - static/js/main.js
+  - static/js/d3.v7.min.js
 
 markdown_extensions:
   - attr_list
